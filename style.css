@@ -1,53 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Marcellus+SC&display=swap'); /* Marcellus */
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Marcellus+SC&display=swap");
+/* Marcellus */
 
 :root {
-    --background: #212F3C;
-    --white: #D6DBDF;
-    --paper: #faf6d0;
-    --highlight: #c7d8ab;
-    --text: 'Marcellus', serif;
-    --title: 'Marcellus SC', serif;
+  --background: #212121;
+  --white: #d6dbdf;
+  --paper: gold;
+  --highlight: lightgreen;
+  --text: "Marcellus", serif;
+  --title: "Marcellus SC", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    text-align: center;
-    background-color: var(--background);
-    color: var(--paper);
+  text-align: center;
+  background-color: var(--background);
+  color: var(--paper);
 }
 
 /* Header */
 
 header {
-    color: var(--highlight);
-    font-family: var(--title);
+  background-color: #17202a;
+  height: 11vh;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-/* Body */
+h1 {
+  color: var(--highlight);
+  font-family: var(--title);
+  padding-top: 1vh;
+}
+
+nav {
+  padding-top: 2vh;
+}
+
+ul {
+  list-style: none;
+  position: relative;
+  float: center;
+  font-family: var(--text);
+}
+
+li {
+  display: inline;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 1vw;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--paper);
+  cursor: default;
+}
+
+li:hover {
+  background-color: var(--paper);
+  color: var(--background);
+}
+
+/* Main */
 
 article {
-    display: grid;
-    font-family: var(--text);
+  margin-top: 2vh;
+  font-family: var(--text);
+  color: var(--white);
 }
 
 section {
-    margin: 5px;
-    border: .5px solid;
-    border-radius: 5px;
-    cursor: pointer;
+    margin-top: 2vh;
 }
 
-h6 {
-    letter-spacing: 1px;
+p {
+    margin-top: 1vh;
     color: var(--white);
+    font-size: 1vw;
 }
 
-h6#selected {
-    font-weight: bold;
-    color: var(--highlight);
-}
-
-/* Details */
-
-summary {
-    list-style: none;
+h3#selected {
+    color: lightpink;
 }
