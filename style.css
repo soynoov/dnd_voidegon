@@ -1,19 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Dela+Gothic+One&family=Mooli&family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Marcellus+SC&display=swap'); /* Marcellus */
 
 :root {
     --background: #212F3C;
     --white: #D6DBDF;
     --paper: #faf6d0;
     --highlight: #c7d8ab;
-}
-
-* {
-    font-family: 'Dela Gothic One', cursive;
-}
-
-html {
-    margin: 0;
-    padding: 0;
+    --text: 'Marcellus', serif;
+    --title: 'Marcellus SC', serif;
 }
 
 body {
@@ -26,12 +19,14 @@ body {
 
 header {
     color: var(--highlight);
+    font-family: var(--title);
 }
 
 /* Body */
 
 article {
     display: grid;
+    font-family: var(--text);
 }
 
 section {
@@ -41,13 +36,8 @@ section {
     cursor: pointer;
 }
 
-h3 {
-    font-family: 'Croissant One', cursive;
-    letter-spacing: 1px;
-}
-
 h6 {
-    font-family: 'Mooli', sans-serif;
+    letter-spacing: 1px;
     color: var(--white);
 }
 
