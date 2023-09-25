@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Dela+Gothic+One&family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Dela+Gothic+One&family=Mooli&family=Nabla&display=swap');
 
 :root {
     --background: #212F3C;
@@ -41,6 +41,11 @@ section {
     cursor: pointer;
 }
 
+h3 {
+    font-family: 'Croissant One', cursive;
+    letter-spacing: 1px;
+}
+
 h6 {
     font-family: 'Mooli', sans-serif;
     color: var(--white);
@@ -49,4 +54,10 @@ h6 {
 h6#selected {
     font-weight: bold;
     color: var(--highlight);
+}
+
+/* Details */
+
+summary {
+    list-style: none;
 }
