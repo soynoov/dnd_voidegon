@@ -1,5 +1,5 @@
 function miFuncion() {
-    document.body.style.backgroundColor = "#E74C3C";
+    document.body.style.backgroundColor = "salmon";
 }
 
 function home() {
