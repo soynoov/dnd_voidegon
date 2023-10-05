@@ -9,7 +9,7 @@
 * {
     margin: 0;
     padding: 0;
-    transition: all ease .5s;
+    transition: ease .5s;
 }
 
 body {
@@ -43,4 +43,13 @@ header nav a {
 
 header nav a:hover {
     font-size: 30px;
+}
+
+/* Main */
+
+h1 {
+    font-family: var(--font-title);
+    color: var(--white);
+    text-align: center;
+    padding: 1em;
 }
