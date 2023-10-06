@@ -26,7 +26,6 @@ header {
   background-color: var(--white);
   text-transform: uppercase;
   font-family: var(--font-title);
-  width: auto;
 }
 
 header h1#back a {
