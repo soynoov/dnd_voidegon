@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap");
+
+:root {
+  --black: #17202a;
+  --white: #eaecee;
+
+  --font-title: "Dela Gothic One", cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  transition: ease 0.5s;
+  font-family: var(--font-title);
+}
+
+body {
+  background-color: var(--black);
+  text-align: center;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+header {
+  background-color: var(--white);
+  text-transform: uppercase;
+  font-family: var(--font-title);
+}
+
+header h1::after {
+  content: "";
+}
+
+header th {
+  text-align: center;
+}
+
+main {
+  color: var(--white);
+}
+
+article,
+section {
+  margin: 1em;
+}
+
+/*Tables*/
+
+table {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  border: var(--white) solid 5px;
+  border-radius: 10px;
+
+  padding: 0.6em;
+}
+
+header table {
+  height: auto;
+}
+
+tr,
+td,
+th {
+  padding: 0.3em 0.5em;
+  width: 100vw;
+}
+
+td {
+  font-family: "Carrois Gothic SC", sans-serif;
+}
+
+.table-stats th,
+.table-hp th {
+  text-align: right;
+}
+
+.table-hp td{
+  text-align: left;
+}
+
+p {
+  font-family: "Carrois Gothic SC", sans-serif;
+  text-align: justify;
+}
+
+span {
+  font-family: "Carrois Gothic SC", sans-serif;
+  text-align: center;
+}
+
+article {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.section-att, .section-com {
+  grid-column: 2;
+}
+
+/*Scrollbar*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--black);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--white);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
+}
