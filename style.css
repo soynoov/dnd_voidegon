@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap");
+
 
 :root {
     --black: #17202A;
@@ -52,4 +54,22 @@ h1 {
     color: var(--white);
     text-align: center;
     padding: 1em;
+}
+
+main a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Carrois Gothic SC", sans-serif;
+    padding: 1em;
+}
+
+main a:hover {
+    font-size: 25px;
+}
+
+article {
+    display: flex;
+    justify-content: center;
 }

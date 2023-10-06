@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap");
+
+:root {
+  --black: #17202a;
+  --white: #eaecee;
+
+  --font-title: "Dela Gothic One", cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  transition: ease 0.5s;
+  font-family: var(--font-title);
+}
+
+body {
+  background-color: var(--black);
+  text-align: center;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+header {
+  background-color: var(--white);
+  text-transform: uppercase;
+  font-family: var(--font-title);
+  width: auto;
+}
+
+header h1#back a {
+  background-color: var(--black);
+  color: var(--white);
+  border-radius: 100%;
+  padding: 0 .4em;
+  margin: 0 20px;
+}
+
+header h1#back:hover {
+  transform: translateX(-10px);
+}
+
+header a {
+  text-decoration: none;
+}
+
+header th {
+  text-align: center;
+}
+
+main {
+  color: var(--white);
+}
+
+article,
+section {
+  margin: 1em;
+}
+
+/*Tables*/
+
+table {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+/* 
+  
+ */
+}
+
+header table {
+  height: auto;
+}
+
+tr,
+td,
+th {
+  padding: 0.3em 0.5em;
+  width: 100vw;
+}
+
+td {
+  font-family: "Carrois Gothic SC", sans-serif;
+}
+
+.table-stats th,
+.table-hp th {
+  text-align: right;
+}
+
+b {
+  color: #2ECC71;
+}
+
+p {
+  font-family: "Carrois Gothic SC", sans-serif;
+  text-align: justify;
+}
+
+span {
+  font-family: "Carrois Gothic SC", sans-serif;
+  text-align: center;
+}
+
+/* GRID */
+
+article {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+section {
+  border: 1px solid;
+  border: var(--white) solid 2px;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+.section-perso {
+  grid-column: 3;
+  grid-row: 4;
+}
+
+.section-com {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.section-att {
+  grid-row: 2 / 5;
+  grid-column: 2;
+}
+
+.section-backpack {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.section-weapon {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+/*Scrollbar*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--black);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--white);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
+}
