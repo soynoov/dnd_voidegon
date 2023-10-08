@@ -6,6 +6,7 @@
   --white: #eaecee;
 
   --font-title: "Dela Gothic One", cursive;
+  --font-text: "Carrois Gothic SC", sans-serif;
 }
 
 * {
@@ -32,7 +33,7 @@ header h1#back a {
   background-color: var(--black);
   color: var(--white);
   border-radius: 100%;
-  padding: 0 .4em;
+  padding: 0 0.4em;
   margin: 0 20px;
 }
 
@@ -57,15 +58,22 @@ section {
   margin: 1em;
 }
 
+/*SECTIONS*/
+
+span {
+  font-family: var(--font-text);
+}
+
+.span-list {
+  padding-left: 1em;
+}
+
 /*Tables*/
 
 table {
   display: flex;
   justify-content: space-around;
   align-items: center;
-/* 
-  
- */
 }
 
 header table {
@@ -89,17 +97,12 @@ td {
 }
 
 b {
-  color: #2ECC71;
+  color: #2ecc71;
 }
 
 p {
   font-family: "Carrois Gothic SC", sans-serif;
   text-align: justify;
-}
-
-span {
-  font-family: "Carrois Gothic SC", sans-serif;
-  text-align: center;
 }
 
 /* GRID */
