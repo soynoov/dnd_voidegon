@@ -132,8 +132,8 @@ section {
 }
 
 .section-backpack {
-  grid-column: 1;
-  grid-row: 4;
+  grid-column: 3;
+  grid-row: 1;
 }
 
 .section-weapon {
