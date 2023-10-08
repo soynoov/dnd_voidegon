@@ -122,7 +122,7 @@ section {
 }
 
 .section-com {
-  grid-row: 2;
+  grid-row: 3;
   grid-column: 1;
 }
 
@@ -133,12 +133,12 @@ section {
 
 .section-backpack {
   grid-column: 3;
-  grid-row: 2;
+  grid-row: 2 / 4;
 }
 
 .section-weapon {
   grid-column: 1;
-  grid-row: 3;
+  grid-row: 2;
 }
 
 .section-hp {
