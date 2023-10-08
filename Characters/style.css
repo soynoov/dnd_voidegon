@@ -4,6 +4,8 @@
 :root {
   --black: #17202a;
   --white: #eaecee;
+  --title-color: #bad962;
+  --subtitle-color: #f6be5f;
 
   --font-title: "Dela Gothic One", cursive;
   --font-text: "Carrois Gothic SC", sans-serif;
@@ -76,8 +78,16 @@ table {
   align-items: center;
 }
 
+main table th {
+  color: var(--subtitle-color);
+}
+
 header table {
   height: auto;
+}
+
+header table th {
+  color: #204b5e;
 }
 
 tr,
@@ -91,13 +101,12 @@ td {
   font-family: "Carrois Gothic SC", sans-serif;
 }
 
-.table-stats th,
-.table-hp th {
-  text-align: right;
+b {
+  color: var(--subtitle-color);
 }
 
-b {
-  color: #2ecc71;
+.b-title {
+  color: var(--title-color);
 }
 
 p {
