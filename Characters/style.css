@@ -125,6 +125,7 @@ th {
 
 td {
   font-family: var(--font-write);
+  font-size: 20px;
 }
 
 b {
