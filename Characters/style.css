@@ -42,7 +42,7 @@ header h1 {
 }
 
 header table {
-  margin: 0 3cm;
+  margin: 0 2vw;
   border: solid 5px var(--black);
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
@@ -54,12 +54,12 @@ header table {
 
 header td {
   text-align: start;
-  padding-right: 2em;
+  padding-right: 25px;
 }
 
 header th {
   text-align: end;
-  padding-left: 2em;
+  padding-left: 25px;
 }
 
 header th,
