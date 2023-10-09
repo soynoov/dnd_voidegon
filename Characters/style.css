@@ -94,6 +94,10 @@ span {
   padding-left: 1em;
 }
 
+span#write {
+  font-family: var(--font-write);
+}
+
 /*Tables*/
 
 table {
