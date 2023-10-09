@@ -5,7 +5,7 @@
 :root {
   --black: #17202a;
   --white: #eaecee;
-  --grey: #1b2631;
+  --grey: rgba(255, 255, 255, .1);
   --title-color: #bad962;
   --subtitle-color: #f6be5f;
 
@@ -96,6 +96,10 @@ span {
 
 span#write {
   font-family: var(--font-write);
+}
+
+.section-img img {
+  border-radius: 10px;
 }
 
 /*Tables*/
