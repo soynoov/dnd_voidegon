@@ -32,8 +32,9 @@ body {
 
 header {
   background-color: var(--white);
-  text-transform: uppercase;
   font-family: var(--font-text);
+  text-transform: uppercase;
+  width: 100vw;
 }
 
 header h1 {
@@ -53,16 +54,18 @@ header table {
 
 header td {
   text-align: start;
+  padding-right: 2em;
 }
 
 header th {
   text-align: end;
+  padding-left: 2em;
 }
 
 header th,
 header td {
   white-space: nowrap;
-  width: 100cm;
+  width: auto;
 }
 
 /*MAIN*/
@@ -134,7 +137,7 @@ p {
 }
 
 .table-skills td {
-  width: 200px;
+  width: auto;
 }
 
 /* GRID */
@@ -204,5 +207,5 @@ section {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #ccc;
+  background: var(--grey);
 }
