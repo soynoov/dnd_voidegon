@@ -164,12 +164,12 @@ section {
 
 .section-perso {
   grid-column: 3;
-  grid-row: 4;
+  grid-row: 5;
 }
 
 .section-com {
-  grid-row: 3;
   grid-column: 1;
+  grid-row: 5;
 }
 
 .section-att {
@@ -179,7 +179,7 @@ section {
 
 .section-backpack {
   grid-column: 3;
-  grid-row: 2 / 4;
+  grid-row: 2 / 5;
 }
 
 .section-weapon {
@@ -194,7 +194,7 @@ section {
 
 .section-skills {
   grid-column: 1;
-  grid-row: 4/6;
+  grid-row: 3/5;
 }
 
 /*Scrollbar*/
