@@ -36,36 +36,31 @@ header {
   font-family: var(--font-text);
 }
 
-header table {
-  padding: 1em;
-}
-
-header table td {
-  padding: 0;
-}
-
-header th h1 {
+header h1 {
   font-family: var(--font-title);
+  color: #641E16;
 }
 
-header h1#back a {
-  background-color: var(--black);
-  color: var(--white);
-  border-radius: 100%;
-  padding: 0 0.4em;
-  margin: 0 20px;
+header table {
+  margin: 0 3cm;
+  border: solid 5px var(--black);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom: 0;
 }
 
-header h1#back:hover {
-  transform: translateX(-10px);
-}
-
-header a {
-  text-decoration: none;
+header td {
+  text-align: start;
 }
 
 header th {
-  text-align: center;
+  text-align: end;
+}
+
+header th,
+header td {
+  white-space: nowrap;
+  width: 100cm;
 }
 
 /*MAIN*/
@@ -104,14 +99,6 @@ table {
 
 main table th {
   color: var(--subtitle-color);
-}
-
-header table {
-  height: auto;
-}
-
-header table th {
-  color: #204b5e;
 }
 
 tr,
