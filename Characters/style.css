@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Nunito&family=Pacifico&family=Poppins&display=swap');
 
 :root {
   --black: #17202a;
@@ -7,8 +8,10 @@
   --title-color: #bad962;
   --subtitle-color: #f6be5f;
 
-  --font-title: "Dela Gothic One", cursive;
-  --font-text: "Carrois Gothic SC", sans-serif;
+  --font-title: 'Pacifico', cursive;
+  --font-text: 'Poppins', sans-serif;
+  --font-write: 'Caveat', cursive;
+  --font-round: 'Nunito', sans-serif;
 }
 
 * {
@@ -51,8 +54,14 @@ header th {
   text-align: center;
 }
 
+/*MAIN*/
+
 main {
   color: var(--white);
+}
+
+main th, main b {
+  font-family: var(--font-text);
 }
 
 article,
@@ -63,7 +72,7 @@ section {
 /*SECTIONS*/
 
 span {
-  font-family: var(--font-text);
+  font-family: var(--font-round);
 }
 
 .span-list {
@@ -98,7 +107,7 @@ th {
 }
 
 td {
-  font-family: "Carrois Gothic SC", sans-serif;
+  font-family: var(--font-write);
 }
 
 b {
@@ -110,7 +119,7 @@ b {
 }
 
 p {
-  font-family: "Carrois Gothic SC", sans-serif;
+  font-family: var(--font-round);
   text-align: justify;
 }
 
