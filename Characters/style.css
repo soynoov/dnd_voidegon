@@ -24,7 +24,6 @@
 body {
   background-color: var(--black);
   text-align: center;
-  overflow-x: hidden;
   width: 100vw;
 }
 
@@ -96,6 +95,7 @@ span {
 
 span#write {
   font-family: var(--font-write);
+  font-size: 20px;
 }
 
 .section-img img {
@@ -200,7 +200,7 @@ section {
 /*Scrollbar*/
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 0px;
 }
 
 /* Track */
