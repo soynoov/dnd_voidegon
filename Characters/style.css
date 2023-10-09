@@ -102,12 +102,14 @@ span#write {
   border-radius: 10px;
 }
 
-/*Tables*/
+/*TABLES*/
 
 table {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  white-space: nowrap;
+  width: auto;
 }
 
 main table th {
@@ -145,6 +147,11 @@ p {
 }
 
 .table-skills td {
+  width: auto;
+}
+
+.table-weapon td {
+  white-space: nowrap;
   width: auto;
 }
 
