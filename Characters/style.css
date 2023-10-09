@@ -1,17 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Nunito&family=Pacifico&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Nunito&family=Pacifico&family=Poppins&display=swap");
 
 :root {
   --black: #17202a;
   --white: #eaecee;
+  --grey: #1b2631;
   --title-color: #bad962;
   --subtitle-color: #f6be5f;
 
-  --font-title: 'Pacifico', cursive;
-  --font-text: 'Poppins', sans-serif;
-  --font-write: 'Caveat', cursive;
-  --font-round: 'Nunito', sans-serif;
+  --font-title: "Pacifico", cursive;
+  --font-text: "Poppins", sans-serif;
+  --font-write: "Caveat", cursive;
+  --font-round: "Nunito", sans-serif;
 }
 
 * {
@@ -73,7 +74,8 @@ main {
   color: var(--white);
 }
 
-main th, main b {
+main th,
+main b {
   font-family: var(--font-text);
 }
 
@@ -136,6 +138,16 @@ p {
   text-align: justify;
 }
 
+.table-skills td,
+.table-skills th {
+  border-bottom: solid 1px var(--grey);
+  text-align: start;
+}
+
+.table-skills td {
+  width: 200px;
+}
+
 /* GRID */
 
 article {
@@ -178,6 +190,11 @@ section {
 .section-hp {
   grid-column: 3;
   grid-row: 1;
+}
+
+.section-skills {
+  grid-column: 1;
+  grid-row: 4/6;
 }
 
 /*Scrollbar*/
