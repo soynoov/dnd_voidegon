@@ -18,7 +18,6 @@
   margin: 0;
   padding: 0;
   transition: ease 0.5s;
-  font-family: var(--font-title);
 }
 
 body {
@@ -28,9 +27,23 @@ body {
   width: 100vw;
 }
 
+/*HEADER*/
+
 header {
   background-color: var(--white);
   text-transform: uppercase;
+  font-family: var(--font-text);
+}
+
+header table {
+  padding: 1em;
+}
+
+header table td {
+  padding: 0;
+}
+
+header th h1 {
   font-family: var(--font-title);
 }
 
